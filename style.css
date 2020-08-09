@@ -116,6 +116,10 @@ section5 {
 	margin-top: 72px;
 }
 
+.img-girls img {
+	max-width: 100%;
+}
+
 .row {
 	width: 900px;
 	margin: 0 auto;
@@ -166,7 +170,6 @@ section5 {
 }
 
 .row-photo {
-	width: 899px;
 	height: 499px;
 	margin-top: 132px;
 	display: flex;
@@ -276,6 +279,14 @@ section3 {
 	line-height: 24px;
 }
 
+.load:hover {
+	box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.3) inset;
+}
+
+.load a:hover {
+	color: white;
+}
+
 footer {
 	width: 100%;
 	height: 97px;
@@ -342,4 +353,13 @@ footer {
 .container3 {
 	background-color: #f0f0f0;
 	width: 100%;
+}
+
+.header-menu a:hover {
+	border-bottom: 1px solid black;
+}
+
+.text-sign input {
+	width: 350px;
+	background: rgba(0, 0, 0, 0);
 }
